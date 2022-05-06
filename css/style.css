@@ -1,0 +1,930 @@
+
+:root{
+    --color-primario--: #004c91;
+    --color-secundario--: rgb(42, 42, 42);
+
+    --color-titulos--: #004c91;
+    --color-titulos-footer--: rgb(255, 200, 21);
+
+    --color-enlaces--: #0084ff;
+    --texto-blanco--: white;
+    
+    --font--: 'Rubik', sans-serif;
+}
+
+
+
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    font-family: var(--font--);
+    max-width: 1700px;
+}
+
+/**MENU**/
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 0,6em;
+    flex-wrap: wrap;
+    
+}
+
+header .menu{
+    margin-left: 11.6em;
+    width: 500px;
+    padding: 0em;
+    font-weight: 500;
+    text-align: center; 
+}
+
+header .menu ul li {
+    display: inline;
+    margin: 1em;      
+}
+
+header .menu ul li a{
+    color: var(--color-titulos--);
+    padding: 0.7em 1em;
+}
+
+header .menu ul li a:hover{
+    text-decoration: underline;
+}
+
+header .logo{
+    width: 220px;
+    height: 70px;
+    margin: 1.4em;
+    margin-left: 12.8em; 
+}
+
+
+/**PRIMERA CAJA - INICIO**/
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.4em;
+    margin-top: 2.3em;
+    margin-bottom: 0em;
+    padding-bottom: 2.8em;
+   
+    
+}
+
+section .simbolo{
+    width: 300px;
+    align-items: center;
+    margin-left: 9.6em;
+  
+}
+
+h2{
+    color: var(--color-titulos--);
+    font-size: 5em;
+    font-weight: 800;
+    padding-bottom: 0.2em;
+      
+}
+
+p{
+    font-size: 1.1em;
+    font-weight: 200;
+}
+
+section .item{
+    width: 500px;
+    padding-top: 2.3em; 
+    margin-left: 12.8em;
+    
+}
+
+.order{
+    display: flex;
+}
+
+.uno{
+    order: 2;
+}
+
+.dos{
+    order: 1;
+}
+
+/**SEGUNDA CAJA - LOGOTIPOS TEXTO**/
+
+.container_dos{
+    background-color: var(--color-primario--);
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding-right: 6.4em;
+    
+    
+}
+
+.item5{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 12.8em;
+}
+
+.item5 h3{
+    color: var(--texto-blanco--);
+    font-size: 3em;
+    padding-top: 1em;
+}
+    
+.parrafo2{
+    color: var(--texto-blanco--);
+    padding-top: 1.4em;
+    font-weight: 200;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap; 
+    
+}
+
+/**TERCERA CAJA - LOGOTIPOS**/
+
+.container_tres{
+    background-color: var(--color-primario--);
+    margin-top: 0em;
+    padding-top: 0em;
+    margin-bottom: 0em;
+    padding-bottom: 6.4em;
+    justify-content: center;
+    
+}
+
+.caja{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 12.8em;
+    
+    
+}
+
+.logo_normal{
+    width: 300px;
+    height: 70pxs;
+    border-radius: 10px;
+    background-image: url(https://i.pinimg.com/originals/97/ea/a6/97eaa682491355a6c6b2ad3c7f086a3a.jpg);
+    background-size: cover;
+    margin-right: 1em;  
+    margin-bottom: 1em;
+}
+
+.logo_normal2{
+    width: 300px;
+    height: 70pxs; 
+    border-radius: 10px;
+    background-image: url(https://i.pinimg.com/originals/97/ea/a6/97eaa682491355a6c6b2ad3c7f086a3a.jpg);
+    background-size: cover;
+    margin-right: 1em;  
+    margin-bottom: 1em;
+    }
+
+.logo_normal3{
+    width: 300px;
+    height: 70pxs;
+    border-radius: 10px;
+    background-image: url(https://i.pinimg.com/originals/97/ea/a6/97eaa682491355a6c6b2ad3c7f086a3a.jpg);
+    background-size: cover;
+    margin-bottom: 1em;
+    
+   } 
+
+   .hiper{
+    text-align: end;
+    padding-right: 0.6em;
+    font-weight: 500;
+    text-decoration: none;
+   }
+
+   .hiper a{
+    color: var(--color-titulos--);
+   }
+
+   .hiper a:hover{
+    text-decoration: underline; 
+   }
+
+
+   /**FOOTER**/
+
+.flex{
+    display: flex;
+    justify-content: left;
+    background-color: var(--color-secundario--);
+    margin-top: 0em; 
+}
+
+/**contenedor_definitivo**/
+
+.caja_save{
+    width: 400px;
+    padding: 0em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6.4em;
+
+
+}
+
+.footer_redes{
+    color: var(--color-titulos-footer--);
+    align-items: left;
+    margin-left: 3.2em;
+    padding-top: 2em;
+    width: 350px;
+    list-style: none;
+    
+}
+
+
+footer ul{
+    padding: 1.4em;
+    display:flex;
+    list-style: none;
+    flex-wrap: nowrap;
+}
+
+.footer_redes ul li{
+    list-style: none;
+    margin-left: 1.5em;
+    width: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_redes ul li a{
+    color: var(--color-titulos-footer--);
+    margin-top: 0.6em;
+    padding: 0em;
+    width: 50px;   
+}
+
+.footer_redes ul li a:hover{
+    color: var(--color-enlaces--);
+}
+
+
+h4{
+    text-decoration: none;
+    padding-left: 2em;
+    font-size: 1.4em;  
+}
+
+/**COLUMNAS**/
+
+.flex1{
+    display: flex;
+    background-color: var(--color-secundario--);
+    margin-top: 0em;
+    padding-bottom: 1.4em;
+}
+
+
+
+.cuatro_cajas{
+    width: 1000px;
+    padding: 0em;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1.4em;
+    margin-top: 6.4em;
+    flex-wrap: wrap;
+}
+
+.producto{
+    color: var(--color-titulos-footer--);
+    margin-left: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+ 
+}
+
+.producto ul{
+    display:flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+.producto ul li{
+    margin-bottom: 0.6em;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.producto ul li a{
+    color: var(--texto-blanco--);
+    padding: 0em;
+    width: 50px;   
+}
+
+.producto ul li a:hover{
+    color: var(--color-enlaces--)
+}
+
+.producto p{
+    font-weight: 600;
+    margin-left: 1.4em;
+}
+
+
+
+.nosotros{
+    color: var(--color-titulos-footer--);
+    margin-left: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+ 
+}
+
+.nosotros ul{
+    display:flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+.nosotros ul li{
+    margin-bottom: 0.6em;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nosotros ul li a{
+    color: var(--texto-blanco--);
+    padding: 0em;
+    width: 50px;   
+}
+
+.nosotros ul li a:hover{
+    color: var(--color-enlaces--);
+}
+
+.nosotros p{
+    font-weight: 600;
+    margin-left: 1.4em;
+}
+
+.recursos{
+    color: var(--color-titulos-footer--);
+    margin-left: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+ 
+}
+
+.recursos ul{
+    display:flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+.recursos ul li{
+    margin-bottom: 0.6em;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recursos ul li a{
+    color: var(--texto-blanco--);
+    padding: 0em;
+    width: 50px;   
+}
+
+.recursos ul li a:hover{
+    color: var(--color-enlaces--);
+}
+
+.recursos p{
+    font-weight: 600;
+    margin-left: 1.4em;
+}
+
+.politicas{
+    color: var(--color-titulos-footer--);
+    margin-left: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+ 
+}
+
+.politicas ul{
+    display:flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+.politicas ul li{
+    margin-bottom: 0.6em;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.politicas ul li a{
+    color: var(--texto-blanco--);
+    padding: 0em;
+    width: 50px;   
+}
+
+.politicas ul li a:hover{
+    color: var(--color-enlaces--);
+}
+
+.politicas p{
+    font-weight: 600;
+    margin-left: 1.4em;
+    
+}
+
+
+
+/**BOTONES**/
+
+.flex4{
+    display: flex;
+    background-color: var(--color-secundario--);
+    margin-top: 0em;
+    padding-bottom: 1.4em;
+}
+
+.imagenlogo{
+    display: flex;
+    width: 250px;
+}
+
+.caja_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0.4em;
+    padding-bottom: 0.6em;
+    margin-right: 3.2em;
+    
+}
+
+.boton2 h3{
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+
+.boton2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 125px;
+    height: 32px;
+    margin-top: 2em;
+    
+}
+
+
+.boton2 a{
+    color: var(--texto-blanco--);
+    font-weight: 400;
+    font-size: 0.7em;
+    
+    
+}
+
+.registrate{
+    background-color: var(--color-primario--);
+    border-radius: 15px;
+    justify-content: center;
+    padding-top: 0.2em;
+    padding-bottom: 0.4em;
+    margin: 0em;
+
+}
+
+
+.registrate a:hover{
+    color: rgb(255, 200, 21);
+}
+
+.boton1 h3{
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+
+.boton1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 125px;
+    height: 32px;
+    margin-top: 0.1em;
+    
+}
+
+
+.boton1 a{
+    color: var(--texto-blanco--);
+    font-weight: 400;
+    font-size: 0.7em;
+    
+    
+}
+
+
+
+
+/* ##Dispositivo = Tablets, Mobiles de 481px a 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+    /*Aquí van las propiedades y valores según el dispositivo*/
+ 
+   
+  
+    /**MENU**/
+
+   header .menu{
+    margin-left: 1.4em;
+   }
+
+   header .menu ul li{
+    margin-left: 0.6em;
+
+   }
+   
+   header .logo{
+       justify-content: center;
+       margin-left: 10.5em;
+   }
+
+   .boton1{
+       display: flex;
+       margin-top: 2.8em;
+       justify-content: center;
+       margin-left: 12em;
+   }
+    
+   /**PRIMERA CAJA - INICIO**/
+   
+   section .item{
+       margin-left: 0.6em;
+       text-align: justify;
+   }
+
+   section .item p{
+         font-size: 1.2em;
+
+   }
+
+   section .simbolo{
+    margin-top: 1.8em;
+    width: 200px;
+    justify-content: center;
+    margin-left: 7.8em;
+    } 
+
+    /**SEGUNDA CAJA - LOGOTIPOS TEXTO**/
+
+    .item5{
+        margin-left: 0.6em;
+        justify-content: justify;
+    }
+    
+    h3{
+        font-size: 2em;
+    }
+    
+/**TERCERA CAJA - LOGOTIPOS**/
+
+    .caja{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 3.2em;
+    }
+
+    .hiper{
+        text-align: center;
+    }
+
+
+
+
+    .caja_save{
+        margin-top: 1.4em;
+        margin-bottom: 0em;
+    }
+
+
+
+
+
+/**COLUMNAS**/
+
+
+    .flex{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+ }
+
+
+/* ##Dispositivo = Tablets, Ipads (horizontal) 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px)  {
+    
+    /**MENU**/
+
+    header{
+        padding-right: 0px;
+        margin-left: 40px; 
+        width: 500px;
+       
+    }
+
+   header .menu{
+    margin-left: 20px;
+
+   }
+
+   header .menu ul li{
+    margin-left: 10px;
+
+   }
+   
+   header .logo{
+       justify-content: center;
+       margin-left: 10.5em;
+   }
+
+   .boton1{
+       display: flex;
+       margin-top: 2.8em;
+       justify-content: center;
+       margin-left: 12em;
+   }
+
+   /**PRIMERA CAJA - INICIO**/
+
+   .container {
+       width: 500px;
+       margin-left: 20px;
+   }
+   
+   section .item{
+    margin-left: 0.6em;
+    text-align: justify;
+    }
+
+    section .item p{
+        font-size: 1.2em;
+
+    }
+
+    section .simbolo{
+    margin-top: 1.8em;
+    width: 200px;
+    justify-content: center;
+    margin-left: 140px;
+    } 
+
+
+    /**SEGUNDA CAJA - LOGOTIPOS TEXTO**/
+
+    .container_dos{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    
+    .item5{
+        margin-left: 20px;
+        justify-content: justify;
+        width: 500px;
+        
+        
+    }
+    
+    h3{
+        font-size: 2em;
+        
+    }
+    
+/**TERCERA CAJA - LOGOTIPOS**/
+
+    .caja{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 100px;
+        flex-direction: column;
+    }  
+    
+
+    .hiper{
+        text-align: center;
+    }
+
+
+
+
+    .caja_save{
+        margin-top: 1.4em;
+        margin-bottom: 0em;
+    }    
+
+
+    /**COLUMNAS**/
+
+
+    .flex1{
+        width: 500px;
+    }
+
+    .flex{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .caja_footer{
+        justify-content: flex-start;
+    }
+
+
+}
+
+/* ##Dispositivo = Smartphones de 320px a 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    /**MENU**/
+
+    header{
+        padding-right: 0px;
+        width: 350px;
+        
+    }
+
+   header .menu{
+    margin-left: 10px;
+
+   }
+
+   header .menu ul li{
+    margin-left: 5px;
+    font-size: 10px;
+
+   }
+   
+   header .logo{
+        width: 200px;
+        height: 70px;
+        justify-content: center;
+        margin-left: 15px;
+       
+   }
+
+   .boton1{
+       display: flex;
+       margin-top: 2.8em;
+       justify-content: center;
+       margin-left: 100px;
+       width: 90px;
+       height: 20px;
+   }
+    
+   .boton1 h3{
+    font-size: 15px;
+    }
+
+    /**PRIMERA CAJA - INICIO**/
+
+   .container {
+    width: 320px;
+    }
+
+    section .item{
+    margin-left: 3px;
+    text-align: justify;
+    }
+
+    section .item h2{
+        font-size: 40px;
+
+    }
+
+
+    section .item p{
+        font-size: 10px;
+
+    }
+
+    section .simbolo{
+    margin-top: 1.8em;
+    width: 100px;
+    justify-content: center;
+    margin-left: 80px;
+    } 
+
+    /**SEGUNDA CAJA - LOGOTIPOS TEXTO**/
+
+    .container_dos{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    
+    .item5{
+        margin-left: 10px;
+        justify-content: justify;
+        width: 320px;
+        
+        
+    }
+    
+    .item5 h3{
+        font-size: 35px;
+        
+    }
+
+    .parrafo2{
+        font-size: 18px;
+    }
+    
+/**TERCERA CAJA - LOGOTIPOS**/
+
+    .caja{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        flex-direction: column;
+        width: 300px;
+        margin-right: 10px;
+    }  
+    
+
+    .hiper{
+        text-align: center;
+    }
+
+
+    .caja_save{
+        margin-top: 1.4em;
+        margin-bottom: 0em;
+    }   
+    
+     /**COLUMNAS**/
+
+
+     .flex1{
+        width: 320px;
+    }
+
+    .flex{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .imagenlogo{
+        width: 150px;
+        justify-content: center;
+    }
+
+    .boton2{
+        display: flex;
+        margin-top: 2.8em;
+        margin-left: 20px;
+        width: 90px;
+        height: 20px;
+    }
+     
+    .boton2 h3{
+     font-size: 15px;
+     }
+
+    
+
+    .footer_redes{
+        margin-left: 5px;
+        width: 300px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
